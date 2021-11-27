@@ -8,13 +8,12 @@ The model is made of three main blocks and a flatten-dense block at the end. The
 
 # Results
 This model achieved the following results:
-|Epochs |Accuracy (half) | Accuracy (full)|
+|Epochs |Score (public)  |Score (private) |
 |-------|----------------|----------------|
-|40     |0.91140         |0.-----         |
-|50     |0.91300         |0.-----         |
-|60     |0.91340         |0.-----         |
+|40     |0.91140         |0.90940         |
+|50     |0.91300         |0.91120         |
+|60     |0.91340         |0.90910         |
 
-The "accuracy (half)" column represents the testing accuracy on the temporary leaderboard for the competition, which used approximately 50% of the testing data.
 
 # The code
 The Jupyter notebook is available as a file in the repository and [at this link on Google Colab](https://colab.research.google.com/drive/15pORIX2VSS85hrqiU7rdzacePyGbK5nH?usp=sharing).
